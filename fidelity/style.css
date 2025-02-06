@@ -1,0 +1,132 @@
+/* Reset */
+body {}
+
+/* header */
+header {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right {
+    display: flex;
+    margin: 0 40px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+
+.header-right p {
+    margin-left: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 150px;
+    padding: 20px;
+}
+
+/* Container */
+.login-wrapper {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+}
+
+.login-container {
+    background-color: white;
+    padding: 25px;
+    width: 450px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Tiêu đề */
+h2 {
+    color: #033003;
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+/* Label */
+label {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    margin: 8px 0 4px;
+}
+
+/* Input Fields */
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Remember me */
+.remember-me {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.remember-me input {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Button */
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e7e34;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background-color: #155d27;
+}
+
+/* Links */
+.links {
+    margin-top: 10px;
+}
+
+.links a {
+    color: #003366;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Sign up */
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #003366;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
